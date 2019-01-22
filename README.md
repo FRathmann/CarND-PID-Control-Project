@@ -1,10 +1,9 @@
-# UD_CarND_PID_Control_Project
-Udactiy Self Driving Car Nanodegree - PID Contorl Project
+# Udactiy Self Driving Car Nanodegree - PID Control Project
 
 ## Driving a Vehicle with PID Control
 
 ### Results
-A video of the simulated car driving around the track can be found [here](Video.mp4)
+A video of the simulated car driving around the track can be found [here](https://github.com/4Symbol/UD_CarND_PID_Control_Project/blob/master/Video.mp4)
 
 ### PID controller
 * The "P" for proportional means that the car will steer in proportion to the cross-track error, or CTE. CTE is essentially how far from the middle line of the road the car is. This makes sense, as if the car is to the left of the line then you would want to steer to the right; if it is far to the left of the middle with a high CTE then you want a higher steering angle. However, if the coefficient is set too high for P, the car will oscillate a ton, as the car will constantly overcorrect and overshoot the middle. If the coefficient is too low, the car may react too slowly to curves when the car gets off-center with a higher CTE.
